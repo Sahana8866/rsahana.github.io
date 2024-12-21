@@ -37,7 +37,8 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 
 [Course Reflections](CourseRef.md)
 
-[Business Cases](BusCase.md)
+[Business Cases](https://github.com/Sahana8866/rsahana.github.io/wiki/Business-Cases)
+
 
 <br> 
 > “The only way to do great work is to love what you do.” – Steve Jobs
