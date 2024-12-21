@@ -35,11 +35,14 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 <dd>Google</dd>
 </dl>
 
+[Course Reflections](CourseRef.md)
+
+[Business Cases](BusCase.md)
+
 <br> 
 > “The only way to do great work is to love what you do.” – Steve Jobs
 >
 
-[Course Reflections](Course Reflections)
 
 
 ### Course Learning Reflections
