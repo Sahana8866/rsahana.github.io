@@ -22,7 +22,7 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 <dt>Course Name </dt>
 <dd>DESIGN Analysis and Algorithms</dd>
 <dt>Course Code</dt>
-<dd></dd>
+<dd>24ECSC205</dd>
 <dt>Name</dt>
 <dd>Sahana R</dd>
 <dt>SRN</dt>
