@@ -37,7 +37,7 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 
 [Course Reflections](https://github.com/Sahana8866/rsahana.github.io/wiki/Course-Reflections)
 
-[Business Cases](https://github.com/Sahana8866/rsahana.github.io/wiki/Business-Cases)
+[Business Cases](bc.md)
 
 
 ### Course Learning Reflections
