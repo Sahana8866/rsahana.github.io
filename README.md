@@ -13,24 +13,24 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 - Data Structures and Algorithms
 
 ## 🌐 Find Me Online
-- [GitHub](https://github.com/your-github-username)
-- [LinkedIn](https://linkedin.com/in/your-linkedin-profile)
+- [GitHub](https://github.com/Sahana8866)
+- [LinkedIn](https://www.linkedin.com/in/sahana-r-3a8bb4296/)
 
 ## Portfolio Topic
 
 <dl>
-<dt>Course Name : DESIGN Analysis and Algorithms</dt>
-<dd>Algorithmic Problem Solving</dd>
+<dt>Course Name </dt>
+<dd>DESIGN Analysis and Algorithms</dd>
 <dt>Course Code</dt>
-<dd>Course Code Placeholder</dd>
+<dd></dd>
 <dt>Name</dt>
-<dd>Your Name</dd>
+<dd>Sahana R</dd>
 <dt>SRN</dt>
-<dd>Your SRN</dd>
+<dd>01FE23BCS138</dd>
 <dt>Course Instructor</dt>
-<dd>Instructor Name Placeholder</dd>
+<dd>Mallikarjun Akki</dd>
 <dt>University</dt>
-<dd>Your University Name</dd>
+<dd>KLE Technological Universitye</dd>
 <dt>Portfolio Topic/Domain</dt>
 <dd>Google</dd>
 </dl>
