@@ -39,4 +39,4 @@
 ### 9. **Algorithm Design Techniques**
    - **Brute Force**, **Greedy**, **Divide and Conquer**, **Dynamic Programming**, **Backtracking**.
 
-[BUSINESS CASES](https://github.com/01fe23bcs138/rsahana.github.io/wiki/Business-Cases)
+[BUSINESS CASES](business cases)
