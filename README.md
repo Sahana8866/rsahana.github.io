@@ -10,7 +10,7 @@
    - **Space Efficiency**: Measures memory usage.
    - **Growth Orders**: Big-O notation (constant, logarithmic, etc.).
 
-### 3. **Design Principles (Chapter 2)**
+### 3. **Design Principles**
    - **Divide and Conquer**: Break problems into smaller ones (e.g., Merge Sort).
    - **Greedy Algorithms**: Opt for local optimization (e.g., Knapsack).
    - **Dynamic Programming**: Solve complex problems by breaking them into subproblems (e.g., Fibonacci).
