@@ -30,7 +30,7 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 <dt>Course Instructor</dt>
 <dd>Mallikarjun Akki</dd>
 <dt>University</dt>
-<dd>KLE Technological Universitye</dd>
+<dd>KLE Technological University</dd>
 <dt>Portfolio Topic/Domain</dt>
 <dd>Google</dd>
 </dl>
@@ -38,12 +38,6 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 [Course Reflections](https://github.com/Sahana8866/rsahana.github.io/wiki/Course-Reflections)
 
 [Business Cases](https://github.com/Sahana8866/rsahana.github.io/wiki/Business-Cases)
-
-
-<br> 
-> “The only way to do great work is to love what you do.” – Steve Jobs
->
-
 
 
 ### Course Learning Reflections
@@ -87,4 +81,6 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 ### 9. **Algorithm Design Techniques**
    - **Brute Force**, **Greedy**, **Divide and Conquer**, **Dynamic Programming**, **Backtracking**.
 
-
+<br> 
+> “The only way to do great work is to love what you do.” – Steve Jobs
+>
