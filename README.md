@@ -35,11 +35,6 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 <dd>Google</dd>
 </dl>
 
-[Course Reflections](https://github.com/Sahana8866/rsahana.github.io/wiki/Course-Reflections)
-
-[Business Cases](bc.md)
-
-
 ### Course Learning Reflections
 
 ### 1. **Types of Problems in Nature**
