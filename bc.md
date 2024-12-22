@@ -4,7 +4,7 @@
 
 This problem involves ranking streets or intersections based on traffic congestion to prioritize areas that need improvements. By analyzing congestion levels, cities can optimize traffic flow and allocate resources effectively to reduce congestion and improve commuting times.
 
-We can use [Quick Sort]([traffic_quick_sort.cpp](https://github.com/Sahana8866/rsahana.github.io/blob/b51279ebb79c833e652becfe1b05514b10af27ba/traffic_quick_sort.cpp)) to address this problem, this algorithm takes in the congestion levels of different places and ranks them as per the traffic density, thus allowing the user to decide which place with that respective congestion level has to be prioritized.
+We can use [Quick Sort](traffic_quick_sort.cpp) to address this problem, this algorithm takes in the congestion levels of different places and ranks them as per the traffic density, thus allowing the user to decide which place with that respective congestion level has to be prioritized.
 
 ### Key Benefits:
 
