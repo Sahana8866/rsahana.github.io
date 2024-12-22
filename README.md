@@ -37,6 +37,7 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 
 # [**Course Learning Reflections**](https://sahana8866.github.io/Course_Reflections.github.io/)
 
+## [**bc**](bc.md)
 # [**Business Cases**](https://sahana8866.github.io/Business_Cases.github.io/)
 
 <br> 
