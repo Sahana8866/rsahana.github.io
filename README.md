@@ -35,10 +35,9 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 <dd>Google</dd>
 </dl>
 
-# [**Course Learning Reflections**](https://sahana8866.github.io/Course_Reflections.github.io/)
+# [**Course Learning Reflections**](clr.md)
 
-## [**bc**](bc.md)
-# [**Business Cases**](https://sahana8866.github.io/Business_Cases.github.io/)
+# [**Business Cases**](bc.md)
 
 <br> 
 > “The only way to do great work is to love what you do.” – Steve Jobs
