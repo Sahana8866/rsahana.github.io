@@ -120,7 +120,7 @@ The problem is modeled as a **graph**:
 
 **Prim's** Algorithm can be used to find the MST  and thereby form a connected graph which reaches all locations to provide water.
 
-## Code : [Prim's]()
+## Code : [Prim's](https://github.com/Sahana8866/rsahana.github.io/blob/main/water_prim.cpp)
 
 ### Key Aspects
 1. **Scalability**  
