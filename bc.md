@@ -1,6 +1,6 @@
-### Business Cases
+## **Business Cases**
 
-## 1. Traffic signal synchronization across multiple intersections.
+## **1. Traffic signal synchronization across multiple intersections.**
 
 This problem involves ranking streets or intersections based on traffic congestion to prioritize areas that need improvements. By analyzing congestion levels, cities can optimize traffic flow and allocate resources effectively to reduce congestion and improve commuting times.
 
@@ -9,7 +9,7 @@ We can use **Quick Sort** to address this problem, this algorithm takes in the c
 ### Code : [Quick Sort](https://github.com/Sahana8866/rsahana.github.io/blob/b51279ebb79c833e652becfe1b05514b10af27ba/traffic_quick_sort.cpp)
 
 
-### Key Benefits:
+### Key Benefits
 
 1. **Improved Traffic Flow**: Prioritizes congestion hotspots for better management.
 2. **Reduced Commute Time**: Minimizes delays by optimizing traffic patterns.
@@ -18,12 +18,15 @@ We can use **Quick Sort** to address this problem, this algorithm takes in the c
 5. **Increased Safety**: Lowers accident risks by improving traffic management.
 6. **Data-Driven Decisions**: Enables informed urban planning and quick responses.
 
-#### **Time Complexity**
-**Best Case:** O(n log n)  
-**Average Case:** (O(n log n)) 
+### Time Complexity
+**Best Case:** O(n log n) 
+**Average Case:** O(n log n))
  **Worst Case:** O(n^2)
 
-## 2. Urban Flooding.
+### Conclusion
+Quick Sort is ideal to sort the traffic areas and prioritize the one with the highest traffic first.
+
+## **2. Urban Flooding.**
 Efficiently navigate urban flooding by finding alternate routes in emergencies.  
 This requires identifying safe paths through the city's road network while avoiding flooded streets.
   
@@ -31,7 +34,7 @@ This problem can be addressed using **DFS** approach as it helps in exploring al
 
 ### Code : [DFS]()
 
-### **Key Benefits of Using DFS**
+### Key Benefits
 
 1. **Systematic Exploration**: Ensures all possible routes are considered.  
 2. **Efficient in Sparse Graphs**: Performs well with (O(V + E)) time complexity.  
@@ -42,11 +45,10 @@ This problem can be addressed using **DFS** approach as it helps in exploring al
 ### Time Complexity
 O(|V|^2)
 
-
-### **Conclusion**
+### Conclusion
 DFS is ideal for efficiently navigating emergencies like urban flooding.
 
-## 3. Waste Collection Routes.
+## **3. Waste Collection Routes.**
 
 Waste collection routes in a city must be optimized to **minimize total travel distance** while ensuring every collection point is covered. The road network can be modeled as a graph:
  **Nodes**: Waste collection points or intersections.
@@ -55,7 +57,7 @@ Some roads may have **negative weights** (e.g., fuel-efficient shortcuts), makin
 
 ## Code : [Bellman-Ford]()
 
-### **Key Benefits of Bellman-Ford Algorithm**
+### Key Benefits
 
 1. **Handles Negative Weights**:
     Unlike Dijkstra’s algorithm, Bellman-Ford works with graphs containing negative edge weights.
@@ -68,13 +70,13 @@ Some roads may have **negative weights** (e.g., fuel-efficient shortcuts), makin
 5. **Scalable**:
     Works effectively for medium-sized road networks.
 
-### **Time Complexity**
+### Time Complexity
  O(|V||E|)
 
-### **Conclusion**
+### Conclusion
 The Bellman-Ford algorithm is well-suited for optimizing waste collection routes, especially in scenarios involving negative weights or dynamic conditions.
 
-## 4. Road Network Design
+## **4. Road Network Design**
 
 Design a cost-effective road network by connecting all key locations (nodes) with the minimum total construction cost. The network should:
 Avoid cycles (no redundant roads).
@@ -88,7 +90,7 @@ Thus **Kruskal's** Algorithm is the best suitable.
 
 ## Code : [Kruskal's]()
 
-### **Key Benefits of Kruskal’s Algorithm**
+### Key Benefits
 
 1. **Minimizes Total Cost**:
     Guarantees the least expensive network by finding the MST.
@@ -101,14 +103,14 @@ Thus **Kruskal's** Algorithm is the best suitable.
 5. **Global View**:
    Considers the entire graph, making it optimal for overall cost reduction.
 
-### **Time Complexity** 
+### Time Complexity
 O(|E|log|E|)
 
-### **Conclusion**
+### Conclusion
 Kruskal’s Algorithm is ideal for optimizing road networks, ensuring minimal construction costs while maintaining connectivity.
 
 
-## 5. Water Pipeline Distribution
+## **5. Water Pipeline Distribution**
 
 Design a water pipeline network that ensures **equitable distribution** across various locations in a city while minimizing construction costs. The goal is to:
 Connect all locations (nodes) with pipelines (edges).
@@ -123,7 +125,7 @@ The problem is modeled as a **graph**:
 
 ## Code : [Prim's]()
 
-### **Key Benefits of Prim’s Algorithm**
+### Key Benefits
 1. **Efficient for Dense Graphs**:
    Prim’s algorithm is particularly effective for dense graphs (many edges), which is common in infrastructure networks like water pipelines.
 2. **Minimal Total Cost**:
@@ -138,5 +140,5 @@ The problem is modeled as a **graph**:
 ### Time Complexity
 We are using adjacency list with priority queue as min-heap thus, O(|E|log|V|)
 
-### **Conclusion**
+### Conclusion
 Prim’s Algorithm is ideal for developing a cost-effective and equitable water pipeline network, minimizing the overall construction cost while ensuring connectivity between all locations. 
