@@ -6,7 +6,7 @@ This problem involves ranking streets or intersections based on traffic congesti
 
 We can use **Quick Sort** to address this problem, this algorithm takes in the congestion levels of different places and ranks them as per the traffic density, thus allowing the user to decide which place with that respective congestion level has to be prioritized.
 
-### Code : [Quick Sort]()
+### Code : [Quick Sort](https://github.com/Sahana8866/rsahana.github.io/blob/main/traffic_quick_sort.cpp)
 
 
 ### Key Aspects
