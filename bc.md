@@ -6,7 +6,7 @@ This problem involves ranking streets or intersections based on traffic congesti
 
 We can use **Quick Sort** to address this problem, this algorithm takes in the congestion levels of different places and ranks them as per the traffic density, thus allowing the user to decide which place with that respective congestion level has to be prioritized.
 
-### Code : [Quick Sort](https://github.com/Sahana8866/rsahana.github.io/blob/b109bd65629c1f7d03391382199dd44ec62bc0e5/traffic_quick_sort.cpp)
+### Code : [Quick Sort](traffic_quick_sort.cpp)
 
 
 ### Key Aspects
@@ -32,7 +32,7 @@ This requires identifying safe paths through the city's road network while avoid
   
 This problem can be addressed using **DFS** approach as it helps in exploring all possible routes systematically. It works well in emergencies for finding alternate paths thus minimizing risks caused by floods in urban areas.
 
-### Code : [DFS](https://github.com/Sahana8866/rsahana.github.io/blob/2ab2b96891842c251a81e427f40745018676f368/flooding_dfs.cpp)
+### Code : [DFS](flooding_dfs.cpp)
 
 ### Key Aspects
 
