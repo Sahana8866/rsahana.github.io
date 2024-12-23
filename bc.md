@@ -60,7 +60,7 @@ Some roads may have **negative weights** (e.g., fuel-efficient shortcuts), makin
 
 ### Key Aspects
 
-1. **Cost Minimization**  
+1. **Distance Minimization**  
     Minimize the total distance traveled while ensuring all collection points are serviced.
 2.  **Route Constraints**  
     Account for road conditions, vehicle capacity, and time windows for collection.
