@@ -51,10 +51,10 @@ DFS is ideal for efficiently navigating emergencies like urban flooding.
 
 ## **3. Waste Collection Routes.**
 
-Waste collection routes in a city must be optimized to **minimize total travel distance** while ensuring every collection point is covered. The road network can be modeled as a graph:
- **Nodes**: Waste collection points or intersections.
-**Edges**: Roads with weights representing travel distances.
-Some roads may have **negative weights** (e.g., fuel-efficient shortcuts), making the **Bellman-Ford** algorithm ideal for this scenario.
+Waste collection routes in a city must be optimized to **minimize total travel distance** while ensuring every collection point is covered. The road network can be modeled as a graph:                                                                                                                                             
+ **Nodes**: Waste collection points or intersections.                                                                                                              
+**Edges**: Roads with weights representing travel distances.                                                                                                       
+Some roads may have **negative weights** (e.g., fuel-efficient shortcuts), making the **Bellman-Ford** algorithm ideal for this scenario.                          
 
 ## Code : [Bellman-Ford](https://github.com/Sahana8866/rsahana.github.io/blob/main/WasteC_BellF.cpp)
 
