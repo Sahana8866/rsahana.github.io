@@ -20,7 +20,7 @@ We can use **Quick Sort** to address this problem, this algorithm takes in the c
 
 #### **Time Complexity**
 **Best Case:** O(n log n)  
-**Average Case:** (O(n \log n)) 
+**Average Case:** (O(n log n)) 
  **Worst Case:** O(n^2)
 
 ## 2. Urban Flooding.
@@ -34,19 +34,19 @@ This problem can be addressed using **DFS** approach as it helps in exploring al
 ### **Key Benefits of Using DFS**
 
 1. **Systematic Exploration**: Ensures all possible routes are considered.  
-2. **Efficient in Sparse Graphs**: Performs well with \(O(V + E)\) time complexity.  
+2. **Efficient in Sparse Graphs**: Performs well with (O(V + E)) time complexity.  
 3. **Dynamic Adaptability**: Can handle real-time updates like flooded roads.  
-4. **Minimal Memory Usage**: Uses \(O(V)\) space, suitable for large networks.  
+4. **Minimal Memory Usage**: Uses (O(V)) space, suitable for large networks.  
 5. **Backtracking Capability**: Easily finds alternate routes when paths are blocked.  
 
 ### Time Complexity
-
+O(|V|^2)
 
 
 ### **Conclusion**
 DFS is ideal for efficiently navigating emergencies like urban flooding.
 
-## 3.
+## 3. Waste Collection Routes.
 
 Waste collection routes in a city must be optimized to **minimize total travel distance** while ensuring every collection point is covered. The road network can be modeled as a graph:
  **Nodes**: Waste collection points or intersections.
@@ -56,6 +56,7 @@ Some roads may have **negative weights** (e.g., fuel-efficient shortcuts), makin
 ## Code : [Bellman-Ford]()
 
 ### **Key Benefits of Bellman-Ford Algorithm**
+
 1. **Handles Negative Weights**:
     Unlike Dijkstra’s algorithm, Bellman-Ford works with graphs containing negative edge weights.
 2. **Guaranteed Shortest Paths**:
@@ -73,5 +74,69 @@ Some roads may have **negative weights** (e.g., fuel-efficient shortcuts), makin
 ### **Conclusion**
 The Bellman-Ford algorithm is well-suited for optimizing waste collection routes, especially in scenarios involving negative weights or dynamic conditions.
 
-## 4.
+## 4. Road Network Design
 
+Design a cost-effective road network by connecting all key locations (nodes) with the minimum total construction cost. The network should:
+Avoid cycles (no redundant roads).
+Ensure all locations are connected (spanning tree).
+Minimize total road construction costs.
+
+The problem can be modeled as a **graph**:
+**Nodes**: Locations or intersections.
+**Edges**: Possible roads with weights representing construction costs.
+Thus **Kruskal's** Algorithm is the best suitable.
+
+## Code : [Kruskal's]()
+
+### **Key Benefits of Kruskal’s Algorithm**
+
+1. **Minimizes Total Cost**:
+    Guarantees the least expensive network by finding the MST.
+2. **Works on Weighted Graphs**:
+   Handles varying construction costs for different roads.
+3. **Scalable**:
+   Efficient for sparse graphs, common in road networks.
+4. **Simple and Modular**:
+    Easy to implement and extend for additional constraints (e.g., restricted areas).
+5. **Global View**:
+   Considers the entire graph, making it optimal for overall cost reduction.
+
+### **Time Complexity** 
+O(|E|log|E|)
+
+### **Conclusion**
+Kruskal’s Algorithm is ideal for optimizing road networks, ensuring minimal construction costs while maintaining connectivity.
+
+
+## 5. Water Pipeline Distribution
+
+Design a water pipeline network that ensures **equitable distribution** across various locations in a city while minimizing construction costs. The goal is to:
+Connect all locations (nodes) with pipelines (edges).
+Minimize the total cost of laying the pipelines (edge weights).
+Ensure every location is accessible through the network (spanning tree).
+
+The problem is modeled as a **graph**:
+**Nodes**: Water supply locations or distribution points.
+**Edges**: Possible pipeline routes with associated construction costs.
+
+**Prim's** Algorithm can be used to find the MST  and thereby form a connected graph which reaches all locations to provide water.
+
+## Code : [Prims's]()
+
+### **Key Benefits of Prim’s Algorithm**
+1. **Efficient for Dense Graphs**:
+   Prim’s algorithm is particularly effective for dense graphs (many edges), which is common in infrastructure networks like water pipelines.
+2. **Minimal Total Cost**:
+   Ensures the construction cost is minimized by finding the MST.
+3. **Works Incrementally**:
+   Builds the network step-by-step, making it easy to implement and understand.
+4. **No Global Sorting**:
+   Unlike Kruskal’s algorithm, Prim’s does not require sorting all edges beforehand, which can be more efficient for dense graphs.
+5. **Scalable for Large Networks**:
+   Prim’s can efficiently handle large networks and provide a guaranteed optimal solution for cost-effective distribution.
+
+### Time Complexity
+We are using adjacency list with priority queue as min-heap thus, O(|E|log|V|)
+
+### **Conclusion**
+Prim’s Algorithm is ideal for developing a cost-effective and equitable water pipeline network, minimizing the overall construction cost while ensuring connectivity between all locations. 
