@@ -12,16 +12,17 @@ int partition(int congestion[],int l,int r)
         {
             i++;
         }
-        while(congestion[i]<p);
+        while(i<=r && congestion[i]<p);
         do
         {
             j--;
         }
-        while(congestion[j]>p);
+        while(j>=l && congestion[j]>p);
+
+    if(i<j)
         swap(congestion[i],congestion[j]);
     }
     while(i<j);
-    swap(congestion[i],congestion[j]);
     swap(congestion[l],congestion[j]);
     return j;
 }
