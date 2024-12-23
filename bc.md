@@ -121,7 +121,7 @@ The problem is modeled as a **graph**:
 
 **Prim's** Algorithm can be used to find the MST  and thereby form a connected graph which reaches all locations to provide water.
 
-## Code : [Prims's]()
+## Code : [Prim's]()
 
 ### **Key Benefits of Prim’s Algorithm**
 1. **Efficient for Dense Graphs**:
