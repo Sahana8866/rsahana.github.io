@@ -39,8 +39,39 @@ This problem can be addressed using **DFS** approach as it helps in exploring al
 4. **Minimal Memory Usage**: Uses \(O(V)\) space, suitable for large networks.  
 5. **Backtracking Capability**: Easily finds alternate routes when paths are blocked.  
 
+### Time Complexity
+
+
+
 ### **Conclusion**
 DFS is ideal for efficiently navigating emergencies like urban flooding.
 
 ## 3.
+
+Waste collection routes in a city must be optimized to **minimize total travel distance** while ensuring every collection point is covered. The road network can be modeled as a graph:
+ **Nodes**: Waste collection points or intersections.
+**Edges**: Roads with weights representing travel distances.
+Some roads may have **negative weights** (e.g., fuel-efficient shortcuts), making the **Bellman-Ford** algorithm ideal for this scenario.
+
+## Code : [Bellman-Ford]()
+
+### **Key Benefits of Bellman-Ford Algorithm**
+1. **Handles Negative Weights**:
+    Unlike Dijkstra’s algorithm, Bellman-Ford works with graphs containing negative edge weights.
+2. **Guaranteed Shortest Paths**:
+   Finds the shortest path from a single source to all nodes, ensuring optimal routes.
+3. **Adaptable to Real-World Scenarios**:
+   Can model dynamic conditions like road closures or detours.
+4. **Ease of Implementation**:
+   Simple to implement for directed or undirected graphs.
+5. **Scalable**:
+    Works effectively for medium-sized road networks.
+
+### **Time Complexity**
+ O(|V||E|)
+
+### **Conclusion**
+The Bellman-Ford algorithm is well-suited for optimizing waste collection routes, especially in scenarios involving negative weights or dynamic conditions.
+
+## 4.
 
