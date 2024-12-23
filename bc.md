@@ -87,7 +87,7 @@ The problem can be modeled as a **graph**:
 **Edges**: Possible roads with weights representing construction costs.
 Since we are concerned about minimizing the cost, **Kruskal's** Algorithm is the best suitable.
 
-## Code : [Kruskal's]()
+## Code : [Kruskal's](https://github.com/Sahana8866/rsahana.github.io/blob/main/road_kruskal.cpp)
 
 ### Key Aspects
 
