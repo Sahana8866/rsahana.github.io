@@ -19,14 +19,14 @@ We can use **Quick Sort** to address this problem, this algorithm takes in the c
 6. **Data-Driven Decisions**: Enables informed urban planning and quick responses.
 
 #### **Time Complexity**
-- **Best Case:** \(O(n \log n)\)  
-- **Average Case:** \(O(n \log n)\)  
-- **Worst Case:** \(O(n^2)\)
+**Best Case:** O(n log n)  
+**Average Case:** (O(n \log n)) 
+ **Worst Case:** O(n^2)
 
-  ## 2. Urban Flooding.
+## 2. Urban Flooding.
 Efficiently navigate urban flooding by finding alternate routes in emergencies.  
 This requires identifying safe paths through the city's road network while avoiding flooded streets.
-
+  
 This problem can be addressed using **DFS** approach as it helps in exploring all possible routes systematically. It works well in emergencies for finding alternate paths thus minimizing risks caused by floods in urban areas.
 
 ### Code : [DFS]()
