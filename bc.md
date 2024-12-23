@@ -9,7 +9,7 @@ We can use **Quick Sort** to address this problem, this algorithm takes in the c
 ### Code : [Quick Sort](https://github.com/Sahana8866/rsahana.github.io/blob/b51279ebb79c833e652becfe1b05514b10af27ba/traffic_quick_sort.cpp)
 
 
-### Key Benefits
+### Key Aspects
 
 1. **Improved Traffic Flow**: Prioritizes congestion hotspots for better management.
 2. **Reduced Commute Time**: Minimizes delays by optimizing traffic patterns.
@@ -20,7 +20,7 @@ We can use **Quick Sort** to address this problem, this algorithm takes in the c
 
 ### Time Complexity
 **Best Case:** O(n log n) 
-**Average Case:** O(n log n))
+**Average Case:** O(n log n)
  **Worst Case:** O(n^2)
 
 ### Conclusion
@@ -34,13 +34,14 @@ This problem can be addressed using **DFS** approach as it helps in exploring al
 
 ### Code : [DFS]()
 
-### Key Benefits
+### Key Aspects
 
-1. **Systematic Exploration**: Ensures all possible routes are considered.  
-2. **Efficient in Sparse Graphs**: Performs well with (O(V + E)) time complexity.  
-3. **Dynamic Adaptability**: Can handle real-time updates like flooded roads.  
-4. **Minimal Memory Usage**: Uses (O(V)) space, suitable for large networks.  
-5. **Backtracking Capability**: Easily finds alternate routes when paths are blocked.  
+1. **Safety and Efficiency**  
+   Ensure suggested routes are both safe and quick to traverse.  
+2. **Emergency Access**  
+   Reserve safe routes for emergency services like ambulances and fire trucks.
+3. **Scalability**  
+   Adapt the solution for expanding cities and varying flood intensities.  
 
 ### Time Complexity
 O(|V|^2)
@@ -57,18 +58,16 @@ Some roads may have **negative weights** (e.g., fuel-efficient shortcuts), makin
 
 ## Code : [Bellman-Ford]()
 
-### Key Benefits
+### Key Aspects
 
-1. **Handles Negative Weights**:
-    Unlike Dijkstra’s algorithm, Bellman-Ford works with graphs containing negative edge weights.
-2. **Guaranteed Shortest Paths**:
-   Finds the shortest path from a single source to all nodes, ensuring optimal routes.
-3. **Adaptable to Real-World Scenarios**:
-   Can model dynamic conditions like road closures or detours.
-4. **Ease of Implementation**:
-   Simple to implement for directed or undirected graphs.
-5. **Scalable**:
-    Works effectively for medium-sized road networks.
+1. **Cost Minimization**  
+    Minimize the total distance traveled while ensuring all collection points are serviced.
+2.  **Route Constraints**  
+    Account for road conditions, vehicle capacity, and time windows for collection.
+3. **Environmental Impact**  
+    Reduce fuel consumption and emissions by optimizing routes.
+4. **Clear Communication**  
+   Provide drivers with precise, easy-to-follow instructions for optimized routes.
 
 ### Time Complexity
  O(|V||E|)
@@ -86,22 +85,20 @@ Minimize total road construction costs.
 The problem can be modeled as a **graph**:
 **Nodes**: Locations or intersections.
 **Edges**: Possible roads with weights representing construction costs.
-Thus **Kruskal's** Algorithm is the best suitable.
+Since we are concerned about minimizing the cost, **Kruskal's** Algorithm is the best suitable.
 
 ## Code : [Kruskal's]()
 
-### Key Benefits
+### Key Aspects
 
-1. **Minimizes Total Cost**:
-    Guarantees the least expensive network by finding the MST.
-2. **Works on Weighted Graphs**:
-   Handles varying construction costs for different roads.
-3. **Scalable**:
-   Efficient for sparse graphs, common in road networks.
-4. **Simple and Modular**:
-    Easy to implement and extend for additional constraints (e.g., restricted areas).
-5. **Global View**:
-   Considers the entire graph, making it optimal for overall cost reduction.
+1. **Cost Minimization**  
+   Focus on minimizing total construction costs while connecting all locations.
+2. **Full Connectivity**  
+   Ensure all major locations are connected without redundant roads.
+3. **Environmental and Social Impact**  
+   Avoid disruption to communities and preserve ecological areas.  
+4. **Construction Feasibility**  
+   Prioritize routes that are cost-effective and practical to construct.   
 
 ### Time Complexity
 O(|E|log|E|)
@@ -125,18 +122,18 @@ The problem is modeled as a **graph**:
 
 ## Code : [Prim's]()
 
-### Key Benefits
-1. **Efficient for Dense Graphs**:
-   Prim’s algorithm is particularly effective for dense graphs (many edges), which is common in infrastructure networks like water pipelines.
-2. **Minimal Total Cost**:
-   Ensures the construction cost is minimized by finding the MST.
-3. **Works Incrementally**:
-   Builds the network step-by-step, making it easy to implement and understand.
-4. **No Global Sorting**:
-   Unlike Kruskal’s algorithm, Prim’s does not require sorting all edges beforehand, which can be more efficient for dense graphs.
-5. **Scalable for Large Networks**:
-   Prim’s can efficiently handle large networks and provide a guaranteed optimal solution for cost-effective distribution.
-
+### Key Aspects
+1. **Scalability**  
+   Design the network to accommodate future city expansion.
+2. **Equitable Distribution**  
+   Ensure all areas receive an adequate and fair water supply.
+3. **Resource Constraints**  
+   Consider budget limitations and construction feasibility for certain routes. 
+4. **Maintenance Planning**  
+   Choose durable materials and routes that simplify future maintenance.  
+5. **Environmental Impact**  
+    Minimize disruption to ecosystems and avoid protected areas during construction.
+   
 ### Time Complexity
 We are using adjacency list with priority queue as min-heap thus, O(|E|log|V|)
 
