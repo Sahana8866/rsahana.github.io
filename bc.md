@@ -1,6 +1,6 @@
 ## **Business Cases**
 
-## **1. Traffic signal synchronization across multiple intersections.**
+## **1. Traffic signal synchronization across multiple intersections**
 
 This problem involves ranking streets or intersections based on traffic congestion to prioritize areas that need improvements. By analyzing congestion levels, cities can optimize traffic flow and allocate resources effectively to reduce congestion and improve commuting times.
 
@@ -26,7 +26,7 @@ We can use **Quick Sort** to address this problem, this algorithm takes in the c
 ### Conclusion
 Quick Sort is ideal to sort the traffic areas and prioritize the one with the highest traffic first.
 
-## **2. Urban Flooding.**
+## **2. Urban Flooding**
 Efficiently navigate urban flooding by finding alternate routes in emergencies.  
 This requires identifying safe paths through the city's road network while avoiding flooded streets.
   
@@ -49,7 +49,7 @@ O(|V|^2)
 ### Conclusion
 DFS is ideal for efficiently navigating emergencies like urban flooding.
 
-## **3. Waste Collection Routes.**
+## **3. Waste Collection Routes**
 
 Waste collection routes in a city must be optimized to **minimize total travel distance** while ensuring every collection point is covered. The road network can be modeled as a graph:                                                                                                                                             
  **Nodes**: Waste collection points or intersections.                                                                                                              
