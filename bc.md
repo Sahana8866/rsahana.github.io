@@ -75,37 +75,39 @@ Some roads may have **negative weights** (e.g., fuel-efficient shortcuts), makin
 ### Conclusion
 The Bellman-Ford algorithm is well-suited for optimizing waste collection routes, especially in scenarios involving negative weights or dynamic conditions.
 
-## **4. Road Network Design**
+## **4. Optimal Placement of Recycling Centres**
 
-Design a cost-effective road network by connecting all key locations (nodes) with the minimum total construction cost. The network should:
-Avoid cycles (no redundant roads).
-Ensure all locations are connected (spanning tree).
-Minimize total road construction costs.
+A smart city aims to strategically place recycling centers to minimize the maximum travel distance for citizens to the nearest center while ensuring accessibility for all areas.
 
-The problem can be modeled as a **graph**:
-**Nodes**: Locations or intersections.
-**Edges**: Possible roads with weights representing construction costs.
-Since we are concerned about minimizing the cost, **Kruskal's** Algorithm is the best suitable.
+**Graph Representation:**
+**Nodes:** Represent residential and commercial areas.
+**Edges:** Represent roads between areas, weighted by travel time or distance.
 
-## Code : [Kruskal's](https://github.com/Sahana8866/rsahana.github.io/blob/main/road_kruskal.cpp)
+**Objective:**
+Minimize the maximum distance between any area and its nearest recycling center.
+    
+**Floyd's** Algorithm can be used since,
+Computes the shortest paths between all pairs of areas.
+Identifies underserved areas with long travel distances.
+Optimizes placement of recycling centers to reduce travel time.
+
+## Code : [Floyd's]()
 
 ### Key Aspects
 
-1. **Cost Minimization**  
-   Focus on minimizing total construction costs while connecting all locations.
-2. **Full Connectivity**  
-   Ensure all major locations are connected without redundant roads.
-3. **Environmental and Social Impact**  
-   Avoid disruption to communities and preserve ecological areas.  
-4. **Construction Feasibility**  
-   Prioritize routes that are cost-effective and practical to construct.   
+1. **Emergency Overflow Management**
+   Identifies alternative recycling centers for **emergency rerouting** during overflows or failures.
+2. **Scalability**
+   This approach can be extended to other infrastructure needs, such as hospitals
+3. **Accessibility and Optimization**
+   Ensures all areas are within a **reasonable distance** of a recycling center.
+   Facilitates **efficient waste collection** routes.
 
 ### Time Complexity
-O(|E|log|E|)
+O(|V|^3) where V is the number of vertices.
 
 ### Conclusion
-Kruskal’s Algorithm is ideal for optimizing road networks, ensuring minimal construction costs while maintaining connectivity.
-
+Floyd's algorithm is ideal to ensure that each recycling centre gets placed effectively accross the smart city, maintaining shortest paths among all pairs.
 
 ## **5. Water Pipeline Distribution**
 
