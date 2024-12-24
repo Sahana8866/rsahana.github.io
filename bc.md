@@ -91,7 +91,7 @@ Computes the shortest paths between all pairs of areas.
 Identifies underserved areas with long travel distances.
 Optimizes placement of recycling centers to reduce travel time.
 
-## Code : [Floyd's]()
+## Code : [Floyd's](https://github.com/Sahana8866/rsahana.github.io/blob/main/recycle_floyd.cpp)
 
 ### Key Aspects
 
