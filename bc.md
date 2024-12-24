@@ -137,7 +137,7 @@ The problem is modeled as a **graph**:
     Minimize disruption to ecosystems and avoid protected areas during construction.
    
 ### Time Complexity
-We are using adjacency list with priority queue as min-heap thus, O(|E|log|V|)
+O(|V|^2)
 
 ### Conclusion
 Prim’s Algorithm is ideal for developing a cost-effective and equitable water pipeline network, minimizing the overall construction cost while ensuring connectivity between all locations. 
