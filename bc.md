@@ -79,17 +79,17 @@ The Bellman-Ford algorithm is well-suited for optimizing waste collection routes
 
 A smart city aims to strategically place recycling centers to minimize the maximum travel distance for citizens to the nearest center while ensuring accessibility for all areas.
 
-**Graph Representation:**
-**Nodes:** Represent residential and commercial areas.
-**Edges:** Represent roads between areas, weighted by travel time or distance.
+**Graph Representation:**                                                                                                                                          
+**Nodes:** Represent residential and commercial areas.                                                                                                             
+**Edges:** Represent roads between areas, weighted by travel time or distance.                                                                                     
 
 **Objective:**
 Minimize the maximum distance between any area and its nearest recycling center.
     
-**Floyd's** Algorithm can be used since,
-Computes the shortest paths between all pairs of areas.
-Identifies underserved areas with long travel distances.
-Optimizes placement of recycling centers to reduce travel time.
+**Floyd's** Algorithm can be used since,                                                                                                                           
+Computes the shortest paths between all pairs of areas.                                                                                                            
+Identifies areas with long travel distances.                                                                                                                       
+Optimizes placement of recycling centers to reduce travel time.                                                                                                    
 
 ## Code : [Floyd's](https://github.com/Sahana8866/rsahana.github.io/blob/main/recycle_floyd.cpp)
 
@@ -116,9 +116,9 @@ Connect all locations (nodes) with pipelines (edges).
 Minimize the total cost of laying the pipelines (edge weights).
 Ensure every location is accessible through the network (spanning tree).
 
-The problem is modeled as a **graph**:
-**Nodes**: Water supply locations or distribution points.
-**Edges**: Possible pipeline routes with associated construction costs.
+The problem is modeled as a **graph**:                                                                                                                             
+**Nodes**: Water supply locations or distribution points.                                                                                                          
+**Edges**: Possible pipeline routes with associated construction costs.                                                                                            
 
 **Prim's** Algorithm can be used to find the MST  and thereby form a connected graph which reaches all locations to provide water.
 
