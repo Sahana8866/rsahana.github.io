@@ -1,6 +1,6 @@
 ## Portfolio
 
-### Hello, Sahana R👋
+### Hello, I'm Sahana R👋
 
 I am passionate about technology and problem-solving. Here's a glimpse of my work:
 
