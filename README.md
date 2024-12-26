@@ -5,7 +5,7 @@
 I am passionate about technology and problem-solving. Here's a glimpse of my work:
 
 ## 🛠️ Projects
-- **Project 1**: Created 
+- **Project 1**: Created a Braille-based Solar System Sodel to help the visually challenged children get an idea about the concept.
 - **Project 2**: Built a Gym machine via Arduino showcasing exercises like Pulley and Elliptical Trainer for advertisement purposes.
 
 ## 🚀 Skills
