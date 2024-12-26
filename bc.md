@@ -189,5 +189,5 @@ By using Bellman-Ford, we compute the shortest distance from the depot to all ot
 - A graph is created where the nodes represent the collection points and the edges represent the distances between them.
 - The algorithm iteratively updates the shortest known distance from the depot to each point.
 
-Code : [bellquick](https://github.com/Sahana8866/rsahana.github.io/blob/main/bellquick.cpp)
+## Code : [bellquick](https://github.com/Sahana8866/rsahana.github.io/blob/main/bellquick.cpp)
 
