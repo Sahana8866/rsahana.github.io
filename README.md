@@ -41,7 +41,7 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 
 # [**Business Cases On Our Problem Statement**](Pd_bc.md)
 
-# [**Merged Code**]()
+# [**Merged Code**](https://github.com/Sahana8866/rsahana.github.io/edit/main/mergedcode.cpp)
 <br> 
 > “The only way to do great work is to love what you do.” – Steve Jobs
 >
