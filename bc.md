@@ -141,3 +141,53 @@ O(|V|^2)
 
 ### Conclusion
 Prim’s Algorithm is ideal for developing a cost-effective and equitable water pipeline network, minimizing the overall construction cost while ensuring connectivity between all locations. 
+
+
+
+## 6.Optimizing Waste Collection Routes 
+
+In **Vasanth Nagar**, a smart city, waste collection needs to be optimized for better efficiency and cost reduction. The problem can be divided into two main sub-problems:
+
+1. **Sorting Waste Collection Points by Distance from the Depot**:  
+   We need to sort all waste collection points based on their distance from the central depot to prioritize closer points for earlier collection.
+
+2. **Finding the Shortest Path to Visit All Points**:  
+   After sorting, we need to compute the shortest possible path from the depot to all collection points using an algorithm like **Bellman-Ford**, which works well for graphs with negative weights (though we don't expect negative weights in this problem).
+
+---
+
+## Solution Approach
+
+### 1. **Sorting Waste Collection Points (QuickSort)**
+
+To prioritize the collection points, we need to sort them based on their **distance** from the central depot. This allows us to visit the nearest points first, optimizing the route for time and fuel consumption.
+
+- **QuickSort Algorithm**:  
+  We use **QuickSort**, a highly efficient sorting algorithm with an average time complexity of **O(n log n)**. This algorithm works by selecting a **pivot** element and partitioning the array into elements smaller and larger than the pivot. QuickSort then recursively sorts the subarrays on either side of the pivot.
+
+### 2. **Finding the Shortest Path (Bellman-Ford)**
+
+Once the points are sorted, we need to find the shortest route to visit all points, starting from the central depot. The **Bellman-Ford** algorithm is well-suited for this purpose as it finds the shortest path from a single source node to all other nodes in a graph.
+
+- **Bellman-Ford Algorithm**:  
+  This algorithm works by iteratively relaxing the edges of the graph. It runs in **O(|V||E|)** time complexity, where **V** is the number of vertices (points) and **E** is the number of edges (possible paths). Bellman-Ford can also handle negative weights, although in our case, the weights (distances) are always positive.
+
+By using Bellman-Ford, we compute the shortest distance from the depot to all other collection points, ensuring the optimal collection route.
+
+---
+
+## Implementation
+
+### 1. **QuickSort Implementation**:
+
+- The QuickSort algorithm sorts the waste collection points by calculating the Euclidean distance from the depot.
+- After sorting, the points are arranged in ascending order of distance, allowing us to process closer points first.
+
+### 2. **Bellman-Ford Implementation**:
+
+- The Bellman-Ford algorithm is applied on the graph of waste collection points to determine the shortest distance from the depot to each collection point.
+- A graph is created where the nodes represent the collection points and the edges represent the distances between them.
+- The algorithm iteratively updates the shortest known distance from the depot to each point.
+
+Code : [bellquick]()
+
