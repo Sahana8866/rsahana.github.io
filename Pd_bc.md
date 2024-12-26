@@ -59,4 +59,3 @@ Certain pieces of infrastructure, such as dams, bridges, and power plants, are c
 
 By applying **Bellman-Ford**, **Heap Sort**, and **DFS** to these problems, we can create a disaster response system that efficiently allocates resources, prioritizes high-risk zones, and identifies critical infrastructure components. These solutions will help minimize casualties, optimize rescue operations, and ensure that disaster management is as effective and timely as possible.
 
-Let us know if you'd like to learn more or contribute!
