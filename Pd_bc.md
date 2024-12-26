@@ -14,7 +14,7 @@ In disaster situations, resources such as medical supplies, food, and rescue equ
 **Time Complexity**:  
 - **O(V × E)**, where `V` is the number of zones and `E` is the number of roads between zones. This is because Bellman-Ford checks each edge multiple times, making it suitable for situations where edge weights (costs) change dynamically.
 
-## [CODE](dym_bellf.md)
+## [CODE](dym_bellf.cpp)
 ---
 
 ### 2. High-Risk Zone Prioritization
@@ -33,7 +33,7 @@ When responding to a disaster, it is essential to prioritize zones based on the 
 **Time Complexity**:  
 - **O(n log n)**, where `n` is the number of zones. Heap Sort ensures that we can efficiently sort the zones even as the number of zones increases.
 
-## [CODE](riskyzone_heapsort.md)
+## [CODE](riskyzone_heapsort.cpp)
 ---
 
 ### 3. Critical Infrastructure Identification
@@ -52,7 +52,7 @@ Certain pieces of infrastructure, such as dams, bridges, and power plants, are c
 **Time Complexity**:  
 - **O(V + E)**, where `V` is the number of infrastructure nodes and `E` is the number of connections between them. DFS visits each node and edge once, making it efficient for identifying the critical elements of the network.
 
-## [CODE](infra_dfs.md)
+## [CODE](infra_dfs.cpp)
 ---
 
 ## Conclusion
