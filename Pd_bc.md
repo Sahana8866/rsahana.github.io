@@ -14,7 +14,7 @@ In disaster situations, resources such as medical supplies, food, and rescue equ
 **Time Complexity**:  
 - **O(V × E)**, where `V` is the number of zones and `E` is the number of roads between zones. This is because Bellman-Ford checks each edge multiple times, making it suitable for situations where edge weights (costs) change dynamically.
 
-## [CODE](dym_bellf.cpp)
+## [CODE]([dym_bellf.cpp](https://github.com/Sahana8866/rsahana.github.io/blob/main/dym_bellf.cpp))
 ---
 
 ### 2. High-Risk Zone Prioritization
