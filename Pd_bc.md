@@ -33,7 +33,7 @@ When responding to a disaster, it is essential to prioritize zones based on the 
 **Time Complexity**:  
 - **O(n log n)**, where `n` is the number of zones. Heap Sort ensures that we can efficiently sort the zones even as the number of zones increases.
 
-## [CODE](riskyzone_heapsort.cpp)
+## [CODE]([riskyzone_heapsort.cpp](https://github.com/Sahana8866/rsahana.github.io/blob/main/riskyzone_heapsort.cpp))
 ---
 
 ### 3. Critical Infrastructure Identification
