@@ -52,7 +52,7 @@ Certain pieces of infrastructure, such as dams, bridges, and power plants, are c
 **Time Complexity**:  
 - **O(V + E)**, where `V` is the number of infrastructure nodes and `E` is the number of connections between them. DFS visits each node and edge once, making it efficient for identifying the critical elements of the network.
 
-## [CODE]([infra_dfs.cpp](https://github.com/Sahana8866/rsahana.github.io/blob/main/infra_dfs.cpp))
+## [CODE](https://github.com/Sahana8866/rsahana.github.io/blob/main/infra_dfs.cpp)
 ---
 
 ## Conclusion
