@@ -39,7 +39,7 @@ I am passionate about technology and problem-solving. Here's a glimpse of my wor
 
 # [**Business Cases**](bc.md)
 
-# [**Business Cases On Our Problem Statement**](Pd_bc.md)
+# [**Course Project**](Pd_bc.md)
 
 # [**Merged Code**](https://github.com/Sahana8866/rsahana.github.io/edit/main/mergedcode.cpp)
 <br> 
