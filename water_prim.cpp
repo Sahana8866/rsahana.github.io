@@ -1,73 +1,69 @@
-#include<iostream>
-#include<stdlib.h>
-#include <bits/stdc++.h>
-#define V 5
+#include <iostream>
+#include <vector>
+#include <queue>
+#include <utility>
+#include <climits>
 
 using namespace std;
 
-void printmst(vector<int>&parent,vector<vector<int>>&graph)
-{
-     cout << "Edge \tWeight\n";
-     int s=0;
-    for (int i = 1; i < V; i++)
-        {
-            cout << parent[i] << " - " << i << " \t"
-             << graph[parent[i]][i] << " \n";
-             s+=graph[parent[i]][i];
-        }
-    cout << "MST cost = " << s << endl;
-}
+void primsAlgorithm(int V, vector<pair<int, int>> adj[]) {
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+    vector<int> parent(V, -1);
+    vector<int> key(V, INT_MAX);
+    vector<bool> inMST(V, false);
 
-int minkey(vector<int>&key,vector<bool>&mstset)
-{
-    int mi=INT_MAX,minindex;
-    for(int v=0; v<V; v++)
-    {
-        if(mstset[v]==false && key[v]<mi)
-        {
-            mi=key[v];
-            minindex = v;
-        }
-    }
-    return minindex;
-}
+    int start = 0;
+    pq.push({0, start});
+    key[start] = 0;
 
-void prim(vector<vector<int>> &graph)
-{
-    vector<int>key(V,INT_MAX);
-    vector<int>parent(V,-1);
-    vector<bool>mstset(V,false);
+    while (!pq.empty()) {
+        int u = pq.top().second;
+        pq.pop();
+        inMST[u] = true;
 
-    key[0]=0;
-    parent[0]=-1;
-
-    for(int c=0; c<V-1; c++)
-    {
-        int u=minkey(key,mstset);
-        mstset[u]=true;
-
-        for(int v=0; v<V; v++)
-        {
-            if(graph[u][v]<key[v] && mstset[v]==false && graph[u][v])
-            {
-                key[v] = graph[u][v];
+        for (auto it : adj[u]) {
+            int v = it.first;
+            int weight = it.second;
+            if (!inMST[v] && weight < key[v]) {
                 parent[v] = u;
+                key[v] = weight;
+                pq.push({key[v], v});
             }
         }
     }
 
-    printmst(parent,graph);
+    cout << "Minimum Spanning Tree:" << endl;
+    int totalCost = 0;
+    for (int i = 1; i < V; i++) {
+        cout << parent[i] << " - " << i << ", Weight: " << key[i] << endl;
+        totalCost += key[i];
+    }
+    cout << "Total Cost of MST: " << totalCost << endl;
 }
 
-int main()
-{
-    vector<vector<int>>graph = { { 0, 2, 0, 6, 0 },
-                                { 2, 0, 3, 8, 5 },
-                                { 0, 3, 0, 0, 7 },
-                                { 6, 8, 0, 0, 9 },
-                                { 0, 5, 7, 9, 0 } };
+int main() {
+    int V = 5;
+    vector<pair<int, int>> adj[V];
 
-    prim(graph);
+    adj[0].push_back({1, 2});
+    adj[1].push_back({0, 2});
+
+    adj[0].push_back({3, 6});
+    adj[3].push_back({0, 6});
+
+    adj[1].push_back({2, 3});
+    adj[2].push_back({1, 3});
+
+    adj[1].push_back({3, 8});
+    adj[3].push_back({1, 8});
+
+    adj[1].push_back({4, 5});
+    adj[4].push_back({1, 5});
+
+    adj[2].push_back({4, 7});
+    adj[4].push_back({2, 7});
+
+    primsAlgorithm(V, adj);
+
     return 0;
 }
-
