@@ -6,7 +6,7 @@ This problem involves ranking streets or intersections based on traffic congesti
 
 We can use **Quick Sort** to address this problem, this algorithm takes in the congestion levels of different places and ranks them as per the traffic density, thus allowing the user to decide which place with that respective congestion level has to be prioritized.
 
-### Code : [Quick Sort](https://github.com/Sahana8866/rsahana.github.io/blob/main/traffic_quick_sort.cpp)
+### [Code](https://github.com/Sahana8866/rsahana.github.io/blob/main/traffic_quick_sort.cpp)
 
 
 ### Key Aspects
@@ -32,7 +32,7 @@ This requires identifying safe paths through the city's road network while avoid
   
 This problem can be addressed using **DFS** approach as it helps in exploring all possible routes systematically. It works well in emergencies for finding alternate paths thus minimizing risks caused by floods in urban areas.
 
-### Code : [DFS](https://github.com/Sahana8866/rsahana.github.io/blob/main/flooding_dfs.cpp)
+### [Code](https://github.com/Sahana8866/rsahana.github.io/blob/main/flooding_dfs.cpp)
 
 ### Key Aspects
 
@@ -56,7 +56,7 @@ Waste collection routes in a city must be optimized to **minimize total travel d
 **Edges**: Roads with weights representing travel distances.                                                                                                       
 Some roads may have **negative weights** (e.g., fuel-efficient shortcuts), making the **Bellman-Ford** algorithm ideal for this scenario.                          
 
-## Code : [Bellman-Ford](https://github.com/Sahana8866/rsahana.github.io/blob/main/WasteC_BellF.cpp)
+## [Code](https://github.com/Sahana8866/rsahana.github.io/blob/main/WasteC_BellF.cpp)
 
 ### Key Aspects
 
@@ -91,7 +91,7 @@ Computes the shortest paths between all pairs of areas.
 Identifies areas with long travel distances.                                                                                                                       
 Optimizes placement of recycling centers to reduce travel time.                                                                                                    
 
-## Code : [Floyd's](https://github.com/Sahana8866/rsahana.github.io/blob/main/recycle_floyd.cpp)
+## [Code](https://github.com/Sahana8866/rsahana.github.io/blob/main/recycle_floyd.cpp)
 
 ### Key Aspects
 
@@ -122,7 +122,7 @@ The problem is modeled as a **graph**:
 
 **Prim's** Algorithm can be used to find the MST  and thereby form a connected graph which reaches all locations to provide water.
 
-## Code : [Prim's](https://github.com/Sahana8866/rsahana.github.io/blob/main/water_prim.cpp)
+## [Code](https://github.com/Sahana8866/rsahana.github.io/blob/main/water_prim.cpp)
 
 ### Key Aspects
 1. **Scalability**  
@@ -189,5 +189,5 @@ By using Bellman-Ford, we compute the shortest distance from the depot to all ot
 - A graph is created where the nodes represent the collection points and the edges represent the distances between them.
 - The algorithm iteratively updates the shortest known distance from the depot to each point.
 
-## Code : [bellquick](https://github.com/Sahana8866/rsahana.github.io/blob/main/bellquick.cpp)
+## [Code](https://github.com/Sahana8866/rsahana.github.io/blob/main/bellquick.cpp)
 
