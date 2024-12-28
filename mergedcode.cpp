@@ -23,7 +23,6 @@ int path[10],j=0;
 const int vert = 4;
 unordered_map<string,string> impactmap;
 
-// --------------2----------
 
 void changes(unordered_map<string,string>&impactmap)
 {
