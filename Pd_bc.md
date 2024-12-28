@@ -17,23 +17,29 @@ In disaster situations, resources such as medical supplies, food, and rescue equ
 ## [CODE](https://github.com/Sahana8866/rsahana.github.io/blob/main/dym_bellf.cpp)
 ---
 
-### 2. High-Risk Zone Prioritization
+### 2. Disaster Impact Mapping
 
-**Problem Statement**:  
-When responding to a disaster, it is essential to prioritize zones based on the severity of the damage and the risk to human life. High-risk zones require immediate attention and resources. Therefore, we need to rank these zones so that rescue teams can prioritize their efforts accordingly.
+**Problem Statement**:
+Disaster Impact Mapping involves using hashing to efficiently track and analyze the impact of disasters (e.g., flooding, fires) on Vasanth Nagar. By mapping geographical zones to disaster metrics (e.g., flood levels, damage scores), we can quickly update and query disaster data in real-time, enabling rapid response and decision-making.
 
 **Key Aspects**:
-- **Risk Assessment**: Zones must be assigned a risk score based on factors like population density, damage severity, and proximity to dangerous zones.
-- **Rescue Prioritization**: Zones with the highest risk should be the first to receive attention.
-- **Efficient Sorting**: We need a quick way to sort zones based on their risk score to make real-time decisions.
+- **Geographical Zones**: Each zone is uniquely identified (e.g., by coordinates or IDs).
+- **Hashing for Efficiency**: Hash tables store and retrieve disaster data for each zone.
+- **Real-time Updates**: Continuously update disaster metrics for zones during events.
+- **Fast Querying**: Quick access to disaster data for specific zones or regions.
 
-**Algorithm Applied**: **Heap Sort**  
-- Heap Sort is used to sort the zones based on their risk levels. This algorithm is efficient for this purpose because it maintains a heap structure that allows easy access to the highest-priority zone (i.e., the one with the highest risk). The zones are then processed in descending order of risk.
+  **Algorithm Applied**: **Hashing**
+  Hashing is applied to ensure fast and constant-time access (O(1)) to disaster data for each zone, allowing for real-time updates and queries during a disaster 
+   event.
 
 **Time Complexity**:  
-- **O(n log n)**, where `n` is the number of zones. Heap Sort ensures that we can efficiently sort the zones even as the number of zones increases.
+- **Insertion/Update**: **O(1)** average time for adding or updating data.
+- **Lookup**: **O(1)** average time for querying disaster data.
+- **Space**: **O(n)** where `n` is the number of zones.
+- **Worst-Case**: **O(n)** for hash collisions.
 
-## [CODE](https://github.com/Sahana8866/rsahana.github.io/blob/main/riskyzone_heapsort.cpp)
+## [CODE](https://github.com/Sahana8866/rsahana.github.io/blob/main/impactmap_hashing.cpp)
+
 ---
 
 ### 3. Critical Infrastructure Identification
@@ -54,8 +60,4 @@ Certain pieces of infrastructure, such as dams, bridges, and power plants, are c
 
 ## [CODE](https://github.com/Sahana8866/rsahana.github.io/blob/main/infra_dfs.cpp)
 ---
-
-## Conclusion
-
-By applying **Bellman-Ford**, **Heap Sort**, and **DFS** to these problems, we can create a disaster response system that efficiently allocates resources, prioritizes high-risk zones, and identifies critical infrastructure components. These solutions will help minimize casualties, optimize rescue operations, and ensure that disaster management is as effective and timely as possible.
 
