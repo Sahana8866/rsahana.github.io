@@ -56,7 +56,7 @@ Certain pieces of infrastructure, such as dams, bridges, and power plants, are c
 - DFS is used to traverse the infrastructure network and identify critical components. By exploring each node (infrastructure component) and its connections, DFS helps determine which parts of the network are crucial for maintaining connectivity. If a critical node (like a dam or bridge) is removed, it could disconnect key zones or cut off evacuation routes.
 
 **Time Complexity**:  
-- **O(|V|^2)**, where `V` is the number of infrastructure nodes and `E` is the number of connections between them. DFS visits each node and edge once, making it efficient for identifying the critical elements of the network.
+- **O(V^2)**, where `V` is the number of infrastructure nodes and `E` is the number of connections between them. DFS visits each node and edge once, making it efficient for identifying the critical elements of the network.
 
 ## [CODE](https://github.com/Sahana8866/rsahana.github.io/blob/main/infra_dfs.cpp)
 ---
