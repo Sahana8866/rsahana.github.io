@@ -1,3 +1,9 @@
+## Problem Definition
+
+In the wake of frequent natural disasters such as floods, earthquakes, and fires, there is an urgent need for an intelligent disaster management system. The primary goal of this project is to design a **Smart Disaster Response and Evacuation System** that can ensure efficient rescue operations, optimal evacuation routes, real-time decision-making, and resource allocation during emergencies. By combining data-driven algorithms and automation, this system aims to minimize casualties, reduce response times, and optimize resource utilization.
+
+### Cases :
+
 ### 1. Dynamic Resource Allocation
 
 **Problem Statement**:  
